@@ -1,6 +1,8 @@
 // bower:scss
 // endbower
 
+@import 'colors';
+
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,9 +15,10 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #cacaca;
+  background-color: $primary-color;
   border-radius: 6px;
   padding: 60px;
+  color: $white-color;
   h1 {
     font-size: 60px;
     line-height: 1;
@@ -25,7 +28,7 @@ body {
 
 .browsehappy {
   margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
+  background: $primary-color;
+  color: $white-color;
   padding: 0.2em 0;
 }
