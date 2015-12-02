@@ -8,8 +8,34 @@ and open the template in the editor.
     Author     : rajesh
 */
 
-$default-color: #929596;
-$primary-color: #0099cc;
-$success-color: #40c40c;
-$white-color: #ffffff;
-$black-color: #000000;
+$whiteColor: #ffffff;
+$blackColor: #000000;
+
+/* Text Color variables */
+$greyTextDefault: #535659;
+$greyTextHeadings: #333333;
+$greyTextDesc: #999e9f;
+$approvedText: #40c40c;
+$warnText: #ffc411;
+$rejectText: #ef403c;
+$linkText: #0099cc;
+
+
+/* Button Color variables */
+$defaultButtonColor: #929596;
+$primaryButtonColor: #0099cc;
+$successButtonColor: #40c40c;
+$warnButtonColor: #ffc411;
+$rejectButtonColor: #ef403c;
+$disabledButtonColor: #b9b9b9;
+
+/* Button Hover Colors */
+$defaultButtonHover: #77797a;
+$primaryButtonHover: #0087b4;
+$successButtonHover: #37a90a;
+$warnButtonHover: #f5b902;
+$rejectButtonHover: #ee0e09;
+
+
+
+

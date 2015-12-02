@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Dec, 2015, 12:49:43 PM
+    Author     : rajesh
+*/
+
+@import 'colors';
+
+.btnRegular {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    border:none;
+    color: $whiteColor;
+    margin:0px 5px 0px 0px;
+}
+.btnSmall {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    border:none;
+    color: $whiteColor;
+    margin:0px 5px 0px 0px;
+}
+.btnDefault {
+    background-color: $defaultButtonColor;
+    &:hover {
+    background: $defaultButtonHover;
+    text-decoration: none;
+  }
+}
+.btnPrimary {
+    background-color: $primaryButtonColor;
+    &:hover {
+    background: $primaryButtonHover;
+    text-decoration: none;
+    }
+}
+.btnSuccess {
+    background-color: $successButtonColor;
+    &:hover {
+    background: $successButtonHover;
+    text-decoration: none;
+    }
+
+}
+.btnWarn {
+    background-color: $warnButtonColor;
+    &:hover {
+    background: $warnButtonHover;
+    text-decoration: none;
+    }
+ 
+}
+.btnReject{
+    background-color: $rejectButtonColor;
+    &:hover {
+    background: $rejectButtonHover;
+    text-decoration: none;
+    }
+}
+.btnDisabled {
+    background-color: $disabledButtonColor;
+    &:hover {
+    text-decoration: none;
+    cursor: no-drop;
+    }
+}

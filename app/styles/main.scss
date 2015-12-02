@@ -2,11 +2,48 @@
 // endbower
 
 @import 'colors';
+@import 'buttons';
 
 body {
-  background: #fafafa;
+  background: $whiteColor;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: $greyTextDefault;
+  padding:0px;
+  margin: 0px;
+}
+.containerFluid {
+    width: 100%;
+}
+.container {
+    width: 1160px;
+    margin: 0px auto;
+}
+.apRow {
+   width: 100%; 
+}
+.clear {
+    clear:both;
+}
+.pad30 {
+    padding: 30px;
+}
+/* Header styles*/
+
+header {
+    background: $primaryButtonColor;
+    padding: 10px 30px;
+    color: $whiteColor;
+    margin: 0px 0px 30px 0px;
+    h1 {
+        font-size: 24px;
+        float: left;
+        font-weight: normal;
+        line-height: 1;
+    }
+    p {
+        font-size: 18px;
+        float: right;
+    }
 }
 
 .hero-unit {
@@ -15,10 +52,10 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: $primary-color;
+  background-color: #f4f5f6;
   border-radius: 6px;
   padding: 60px;
-  color: $white-color;
+  color: #fff;
   h1 {
     font-size: 60px;
     line-height: 1;
@@ -28,7 +65,7 @@ body {
 
 .browsehappy {
   margin: 0.2em 0;
-  background: $primary-color;
-  color: $white-color;
+  background: #fcfbfa;;
+  color: #fff;
   padding: 0.2em 0;
 }
