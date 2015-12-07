@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Dec, 2015, 12:00:31 PM
+    Author     : rajesh
+*/
+@import 'colors';
+
+.typos {
+}
+
+.alignCtr {
+    text-align: center;
+}
+.alignLft {
+    text-align: left;
+}
+.alignRgt {
+    text-align: right;
+}
+
+h1 {
+    font: bold 24px;
+    color: $greyTextHeadings;
+}
+h2 {
+    font: bold 20px;
+    color: $greyTextHeadings;
+}
+h3 {
+    font: bold 16px;
+    color: $greyTextHeadings;
+}
+h4 {
+    font: bold 12px;
+    color: $greyTextHeadings;
+}
+h5 {
+    font: bold 10px;
+    color: $greyTextHeadings;
+}
+
+
+.defaultText {
+    font-size: 14px;
+    color: $greyTextDefault;
+    font-weight: 400;
+}
+.descText {
+    font-size: 13px;
+    color: $greyTextDesc;
+    font-weight: 400;
+}
+.approvedText {
+    font-size: 14px;
+    color: $approvedText;
+    font-weight: 400;
+}
+.warnText {
+    font-size: 14px;
+    color: $warnText;
+    font-weight: 400;
+}
+.rejectText {
+    font-size: 14px;
+    color: $rejectText;
+    font-weight: 400;
+}
+.linkText {
+    font-size: 14px;
+    color: $linkText;
+    font-weight: 400;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+

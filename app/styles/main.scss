@@ -3,6 +3,7 @@
 
 @import 'colors';
 @import 'buttons';
+@import 'typography';
 
 body {
   background: $whiteColor;
@@ -27,6 +28,7 @@ body {
 .pad30 {
     padding: 30px;
 }
+
 /* Header styles*/
 
 header {
@@ -39,6 +41,7 @@ header {
         float: left;
         font-weight: normal;
         line-height: 1;
+        color: $whiteColor;
     }
     p {
         font-size: 18px;

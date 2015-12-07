@@ -31,10 +31,10 @@ and open the template in the editor.
 }
 .btnSmall {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 7px 20px;
     margin-bottom: 0;
     font-size: 12px;
-    line-height: 1.42857143;
+    line-height: 1.4;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -90,5 +90,17 @@ and open the template in the editor.
     &:hover {
     text-decoration: none;
     cursor: no-drop;
+    }
+}
+a.linkText {
+    @extend .linkText;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-bottom: 0;
+    
+    line-height: 1.42857143;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
     }
 }
