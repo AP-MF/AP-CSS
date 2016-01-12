@@ -9,6 +9,13 @@ and open the template in the editor.
 */
 
 @import 'colors';
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 
 .btnRegular {
     display: inline-block;
@@ -24,7 +31,7 @@ and open the template in the editor.
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-radius: 4px;
+    @include border-radius(4px);
     border:none;
     color: $whiteColor;
     margin:0px 5px 0px 0px;
@@ -43,7 +50,7 @@ and open the template in the editor.
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-radius: 4px;
+    @include border-radius(4px);
     border:none;
     color: $whiteColor;
     margin:0px 5px 0px 0px;
@@ -82,6 +89,13 @@ and open the template in the editor.
     background-color: $rejectButtonColor;
     &:hover {
     background: $rejectButtonHover;
+    text-decoration: none;
+    }
+}
+.btnRate{
+    background-color: $rateButtonColor;
+    &:hover {
+    background: $rateButtonHover;
     text-decoration: none;
     }
 }

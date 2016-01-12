@@ -4,6 +4,8 @@
 @import 'colors';
 @import 'buttons';
 @import 'typography';
+@import 'pagination';
+@import 'tables';
 
 body {
   background: $whiteColor;
@@ -21,6 +23,12 @@ body {
 }
 .apRow {
    width: 100%; 
+}
+.floatRgt {
+    float: right;
+}
+.floatLft {
+    float: left;
 }
 .clear {
     clear:both;
